@@ -5,7 +5,7 @@ const express = require('express');
 const app = express();
 const PORT = 4000;
 
-// loclahost: 4000/ ~~~
+// localhost: 4000/ ~~~
 app.get('/id/:id', (req, res) => {
   console.log(req.params);
   res.send(req.params);

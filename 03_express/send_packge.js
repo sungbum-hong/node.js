@@ -18,6 +18,7 @@ server.use((req, res, next) => {
   console.log('미들웨어 2번');
   console.log(`데이터 요청시간은 ${req.reqTime} 입니다!`);
   console.log(`package.json 파일의 내용은 ${req.fileContent}`);
+  res.sen;
 });
 
 server.use((req, res, next) => {
